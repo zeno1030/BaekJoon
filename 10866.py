@@ -9,10 +9,10 @@ for i in range(size) :
 
     if order[0]=="push_back":
         a_list.append(order[1])
-        print(a_list)
+        #print(a_list)
     if order[0]=="push_front":
         a_list.appendleft(order[1])
-        print(a_list)
+        #print(a_list)
     if order[0]=="pop_front":
         if len(a_list) !=0 : print(a_list.popleft())
         else : print(-1)
